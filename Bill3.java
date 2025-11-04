@@ -7,7 +7,7 @@ public class Bill3 {
         String name3 = args[2];
         int totalBill = Integer.parseInt(args[3]);
         double eachDiner = Math.ceil(totalBill / 3.0);
-        System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + eachDiner + " Shekels each."); 
-        // Replace this comment with the rest of your code   
+        //System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + eachDiner + " Shekels each."); 
+        System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + eachDiner + " Shekels each.");  
     }
 }
